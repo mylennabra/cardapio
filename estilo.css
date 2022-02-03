@@ -33,7 +33,7 @@ body{
     letter-spacing: 0.5px;
     line-height: 70px;
     font-weight: bold;
-    font-family: londrina;
+    font-family: londrina, fantasy;
     align-items: flex-start;
     display:inline-flex;
     justify-content: space-between;
