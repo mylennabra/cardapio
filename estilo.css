@@ -10,7 +10,7 @@ body{
     background-image: url('cardapio.png');
     background-repeat: no-repeat;
     background-size:  1100px 1950px;
-    font-size: 40px;
+    font-size: 50px;
 }
 
 #botao{
@@ -30,8 +30,8 @@ body{
 .texto{
     width: 650px;
     color: #4B2B06;
-    letter-spacing: 0.5px;
-    line-height: 70px;
+    letter-spacing: 0.8px;
+    line-height: 75px;
     font-weight: bold;
     font-family: londrina, fantasy;
     align-items: flex-start;
