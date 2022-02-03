@@ -32,6 +32,7 @@ body{
     color: #4B2B06;
     letter-spacing: 0.8px;
     line-height: 75px;
+    font-weight: normal;
     font-family: londrina, fantasy;
     align-items: flex-start;
     display:inline-flex;
