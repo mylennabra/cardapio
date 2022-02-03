@@ -32,7 +32,6 @@ body{
     color: #4B2B06;
     letter-spacing: 0.8px;
     line-height: 75px;
-    font-weight: bold;
     font-family: londrina, fantasy;
     align-items: flex-start;
     display:inline-flex;
@@ -43,13 +42,13 @@ body{
 
 p:nth-child(1){
     text-align: left;
-    min-width: 300px;
+    min-width: 400px;
     max-width: 500px;
 
 }
 p:nth-child(2){
     text-align: right;
     align-self: flex-start;
-    max-width: 150px;
+    width: 140px;
 }
 
