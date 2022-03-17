@@ -11,19 +11,22 @@ body{
     background-repeat: no-repeat;
     background-size:  1100px 1950px;
     font-size: 50px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 #botao{
-    background-color: white;
+    background-color: transparent;
     border-radius: 50%;
     border-color: transparent;
     z-index: 5;
     margin-top: 18%;
-    margin-left: 64%;
 }
 
 .pronto-img{
-    width: 230px;
+    width: 330px;
     z-index: 5;
 }
 
@@ -34,11 +37,10 @@ body{
     line-height: 75px;
     font-weight: normal;
     font-family: londrina, fantasy;
-    align-items: flex-start;
-    display:inline-flex;
+    display:flex;
+    
     justify-content: space-between;
     /*     top   right  bottom  left   */
-    margin: 12%   0px    0px     35%;
 }
 
 p:nth-child(1){
