@@ -9,7 +9,7 @@ body{
     width: 1080px;
     background-image: url('cardapio.png');
     background-repeat: no-repeat;
-    background-size:  1100px 1950px;
+    background-size:  1100px 1800px;
     font-size: 50px;
     margin-top: 100px;
     display: flex;
@@ -22,7 +22,7 @@ body{
     border-radius: 50%;
     border-color: transparent;
     z-index: 5;
-    margin-top: 18%;
+    margin-top: 25%;
 }
 
 .pronto-img{
