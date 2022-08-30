@@ -1,57 +1,51 @@
-@font-face {
-    font-family: londrina;
-    src: url('LondrinaSolid-Regular.otf');
-}
-
 body{
-    margin: 0;
+    margin:0;
     height: 1920px;
     width: 1080px;
     background-image: url('cardapio.png');
     background-repeat: no-repeat;
-    background-size:  1100px 1800px;
     font-size: 50px;
-    margin-top: 100px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 #botao{
+    position:absolute;
+    margin-top: 80px;
     background-color: transparent;
     border-radius: 50%;
     border-color: transparent;
     z-index: 5;
-    margin-top: 25%;
 }
 
 .pronto-img{
-    width: 330px;
+    width: 270px;
     z-index: 5;
 }
 
 .texto{
-    width: 650px;
+    margin-top: 450px;
+    width: 850px;
     color: #4B2B06;
-    letter-spacing: 0.8px;
-    line-height: 75px;
-    font-weight: normal;
-    font-family: londrina, fantasy;
+    letter-spacing: 0.1px;
+    font-size: 45px;
+    line-height: 65px;
+    font-weight: bold;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     display:flex;
-    
     justify-content: space-between;
-    /*     top   right  bottom  left   */
 }
 
 p:nth-child(1){
     text-align: left;
-    min-width: 400px;
-    max-width: 500px;
+    min-width: 500px;
+    max-width: 650px;
 
 }
 p:nth-child(2){
     text-align: right;
     align-self: flex-start;
-    width: 140px;
+    width: 170px;
 }
 
